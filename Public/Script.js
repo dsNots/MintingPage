@@ -2,7 +2,7 @@ const contractABI = [{ "inputs": [], "stateMutability": "nonpayable", "type": "c
 const contractAddress = '0x57B31CdAc737BF4c7b0431aD5C7969C0a2cE80dc';
 let web3;
 let contract; // Define the contract variable here
-
+console.log('hm');
 async function initWeb3() {
     if (window.ethereum) {
         web3 = new Web3(window.ethereum);
