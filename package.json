@@ -4,7 +4,6 @@
     "description": "An NFT minting site",
     "scripts": {
         "start": "vercel dev",
-        "build": "vercel build",
         "deploy": "vercel --prod"
     },
     "dependencies": {},
